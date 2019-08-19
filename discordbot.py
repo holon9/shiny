@@ -15,4 +15,4 @@ async def on_voice_state_update(member, before, after):
             msg = f'{now:%m/%d-%H:%M} に {member.name} が {before.channel.name} から退出しました。'
             await alert_channel.send(msg)
 
-client.run("NjEyNjA3OTA0NzM4MTgxMTMw.XVk5MA.R86SB_GTdkIS_294qrx-K75FPHk")
+client.run("NjEyNjA3OTA0NzM4MTgxMTMw.XVo1OQ.wxnJPUC5DCFIdbK0DlxHNur48Xw")
